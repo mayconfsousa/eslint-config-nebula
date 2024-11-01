@@ -3,10 +3,10 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import tailwind from 'eslint-plugin-tailwindcss'
 import globals from 'globals'
 
-import base from './base.mjs'
+import node from './node.mjs'
 
 export default [
-  ...base,
+  ...node,
   {
     languageOptions: {
       globals: globals.browser,
