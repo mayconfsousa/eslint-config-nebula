@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-nebula",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./node": {
+      "types": "./src/node.d.ts",
+      "default": "./src/node.mjs"
+    },
+    "./react": {
+      "types": "./src/react.d.ts",
+      "default": "./src/react.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mayconfsousa/eslint-config-nebula.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-perfectionist": "^3.9.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.12.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=9",
+    "typescript": ">=5"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
