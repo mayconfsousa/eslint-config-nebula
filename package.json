@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-nebula",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "Elevate JS, TS, and React with best practices for stellar code quality and consistency",
   "type": "module",
   "exports": {
     "./node": {
