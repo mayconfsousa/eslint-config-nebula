@@ -22,6 +22,12 @@ export default [
     rules: reactHooks.configs.recommended.rules,
   },
   {
+    rules: {
+      'react/jsx-boolean-value': 'warn',
+      'react/self-closing-comp': 'warn',
+    },
+  },
+  {
     settings: {
       react: {
         version: 'detect',
