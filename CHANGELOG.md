@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.8...v1.0.9) (2024-11-27)
+
+
+### Bug Fixes
+
+* allow exported name "metadata" in eslint-plugin-react-refresh ([9e3af59](https://github.com/mayconfsousa/eslint-config-nebula/commit/9e3af596fc0c93325c1762b8c7964940b0afaf8c))
+
 ## [1.0.8](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.7...v1.0.8) (2024-11-27)
 
 
