@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.6...v1.0.7) (2024-11-27)
+
+
+### Features
+
+* add eslint-plugin-react-refresh ([2e6551c](https://github.com/mayconfsousa/eslint-config-nebula/commit/2e6551c3db7a3f7d26dfb77c441a8d43d3c223c8))
+
 ## 1.0.6 (2024-11-27)
 
 
