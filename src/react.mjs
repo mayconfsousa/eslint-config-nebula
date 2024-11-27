@@ -23,7 +23,13 @@ export default [
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'react-refresh/only-export-components': [
+        'warn',
+        {
+          allowConstantExport: true,
+          allowExportNames: ['metadata'],
+        },
+      ],
       'react/jsx-boolean-value': 'warn',
       'react/self-closing-comp': 'warn',
     },
