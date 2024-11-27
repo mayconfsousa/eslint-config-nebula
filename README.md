@@ -46,3 +46,35 @@ export default [
   ...react,
   // Override any settings from the "eslint-config-nebula" config here
 ]
+```
+
+### VS Code
+
+```json
+// package.json
+
+"scripts": {
+  "lint": "eslint --fix"
+},
+```
+> Recommend to use [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension
+
+```json
+// settings.json
+
+"[javascript]": {
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"[javascriptreact]": {
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"[typescript]": {
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"[typescriptreact]": {
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+},
+"editor.codeActionsOnSave": {
+  "source.fixAll": "explicit"
+},
+```
