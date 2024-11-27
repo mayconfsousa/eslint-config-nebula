@@ -19,7 +19,11 @@
   },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "styleguide",
+    "javascript",
+    "typescript",
+    "reactjs"
   ],
   "scripts": {
     "lint": "eslint --fix"
