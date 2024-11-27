@@ -50,7 +50,7 @@ export default [
 
 ### VS Code
 
-```json
+```jsonc
 // package.json
 
 "scripts": {
@@ -59,7 +59,7 @@ export default [
 ```
 > Recommend to use [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension
 
-```json
+```jsonc
 // settings.json
 
 "[javascript]": {
