@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.7...v1.0.8) (2024-11-27)
+
+
+### Miscellaneous Chores
+
+* publish to npm using pnpm ([8eae381](https://github.com/mayconfsousa/eslint-config-nebula/commit/8eae3813c31eb727cc235d03e6bf4c4b486ed006))
+
 ## [1.0.7](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.6...v1.0.7) (2024-11-27)
 
 
