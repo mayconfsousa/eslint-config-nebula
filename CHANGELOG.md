@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.10](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.9...v1.0.10) (2024-11-28)
+
+
+### Miscellaneous Chores
+
+* update readme ([19a593e](https://github.com/mayconfsousa/eslint-config-nebula/commit/19a593e3297334ff068c0904855881d68311933e))
+* update readme ([4049727](https://github.com/mayconfsousa/eslint-config-nebula/commit/40497272ded653c640cd9478204f116e2a8ae291))
+
 ## [1.0.9](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.9...v1.0.9) (2024-11-28)
 
 
