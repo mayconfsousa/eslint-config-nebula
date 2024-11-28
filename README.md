@@ -4,12 +4,14 @@
 
 ## What's included?
 
-- [Perfectionist plugin](https://www.npmjs.com/package/eslint-plugin-perfectionist)
-- [Prettier plugin](https://www.npmjs.com/package/eslint-plugin-prettier)
-- [React plugin](https://www.npmjs.com/package/eslint-plugin-react)
-- [React Hooks plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks)
-- [TailwindCSS plugin](https://www.npmjs.com/package/eslint-plugin-tailwindcss)
-- [Unused Imports plugin](https://www.npmjs.com/package/eslint-plugin-unused-imports)
+- [Perfectionist plugin](https://www.npmjs.com/package/eslint-plugin-perfectionist) - Enforces consistent sorting for objects, imports, TypeScript types, enums, JSX props, and more.
+- [Prettier plugin](https://www.npmjs.com/package/eslint-plugin-prettier) - Integrates Prettier with ESLint, reporting formatting issues as ESLint errors.
+- [React plugin](https://www.npmjs.com/package/eslint-plugin-react) - Provides linting rules for React applications.
+- [React Hooks plugin](https://www.npmjs.com/package/eslint-plugin-react-hooks) - Enforces the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks).
+- [React Refresh plugin](https://www.npmjs.com/package/eslint-plugin-react-refresh) - Ensures components support fast refresh updates.
+- [TailwindCSS plugin](https://www.npmjs.com/package/eslint-plugin-tailwindcss) - Enforces best practices and consistency with Tailwind CSS.
+- [Unused Imports plugin](https://www.npmjs.com/package/eslint-plugin-unused-imports) - Detects and removes unused ES6 imports.
+- [React Refresh plugin](https://www.npmjs.com/package/eslint-plugin-react-refresh) - Ensures components are compatible with fast refresh updates.
 
 ## Installation
 
