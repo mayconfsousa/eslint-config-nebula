@@ -56,7 +56,7 @@ export default [
 // package.json
 
 "scripts": {
-  "lint": "eslint --fix"
+  "lint": "eslint --fix && tsc --noEmit"
 },
 ```
 > Recommend to use [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension
