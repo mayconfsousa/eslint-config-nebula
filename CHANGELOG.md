@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.11](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.10...v1.0.11) (2024-12-16)
+
+
+### Miscellaneous Chores
+
+* add eslint v9 libs ([4f7eec7](https://github.com/mayconfsousa/eslint-config-nebula/commit/4f7eec7bbaa797bd3fd60921e7659d364a1ec0af))
+
 ## [1.0.10](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.9...v1.0.10) (2024-11-28)
 
 
