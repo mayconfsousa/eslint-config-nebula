@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.12](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.11...v1.0.12) (2024-12-17)
+
+
+### Features
+
+* add react/jsx-curly-brace-presence rule ([68a23a4](https://github.com/mayconfsousa/eslint-config-nebula/commit/68a23a412c9645d5a7a2eb3f60c30d16a21d11d9))
+
 ## [1.0.11](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.10...v1.0.11) (2024-12-16)
 
 
