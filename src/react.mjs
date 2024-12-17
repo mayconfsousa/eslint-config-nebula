@@ -31,6 +31,7 @@ export default [
         },
       ],
       'react/jsx-boolean-value': 'warn',
+      'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
       'react/self-closing-comp': 'warn',
     },
   },
