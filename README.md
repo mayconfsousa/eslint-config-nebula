@@ -50,6 +50,19 @@ export default [
 ]
 ```
 
+### React + Tailwind
+
+```js
+// eslint.config.mjs
+
+import reactTailwind from 'eslint-config-nebula/react-tailwind'
+
+export default [
+  ...reactTailwind,
+  // Override any settings from the "eslint-config-nebula" config here
+]
+```
+
 ### VS Code
 
 ```jsonc

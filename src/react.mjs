@@ -1,7 +1,6 @@
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-import tailwind from 'eslint-plugin-tailwindcss'
 import globals from 'globals'
 
 import node from './node.mjs'
@@ -15,7 +14,6 @@ export default [
   },
   react.configs.flat.recommended,
   react.configs.flat['jsx-runtime'],
-  ...tailwind.configs['flat/recommended'],
   {
     plugins: {
       'react-hooks': reactHooks,
