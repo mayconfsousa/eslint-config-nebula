@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.13](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.12...v1.0.13) (2024-12-27)
+
+
+### Features
+
+* add react tailwind config ([b47d314](https://github.com/mayconfsousa/eslint-config-nebula/commit/b47d3142dae3121e614f71c38efe5078c5333edb))
+
 ## [1.0.12](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.11...v1.0.12) (2024-12-17)
 
 
