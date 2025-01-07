@@ -11,6 +11,10 @@
     "./react": {
       "types": "./src/react.d.ts",
       "default": "./src/react.mjs"
+    },
+    "./react-tailwind": {
+      "types": "./src/react-tailwind.d.ts",
+      "default": "./src/react-tailwind.mjs"
     }
   },
   "repository": {
