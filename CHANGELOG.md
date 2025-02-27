@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.15](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.14...v1.0.15) (2025-02-27)
+
+
+### Features
+
+* add TS type check rules ([3095f5a](https://github.com/mayconfsousa/eslint-config-nebula/commit/3095f5ab209bfd0fef41bd7423c7a823a55bcebc))
+
 ## [1.0.14](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.13...v1.0.14) (2025-01-07)
 
 
