@@ -1,16 +1,36 @@
 import js from '@eslint/js'
 import perfectionist from 'eslint-plugin-perfectionist'
-import prettier from 'eslint-plugin-prettier/recommended'
+import prettier from 'eslint-plugin-prettier'
 import unusedImports from 'eslint-plugin-unused-imports'
 import ts from 'typescript-eslint'
 
-export default [
+export default ts.config(
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   { ignores: ['node_modules/', 'dist/', 'build/'] },
   js.configs.recommended,
-  ...ts.configs.recommended,
-  prettier,
+  ...ts.configs.recommendedTypeChecked,
+  ...ts.configs.stylisticTypeChecked,
   {
+    rules: {
+      '@typescript-eslint/no-floating-promises': 'off',
+      '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
+      '@typescript-eslint/prefer-nullish-coalescing': ['warn', { ignorePrimitives: true }],
+    },
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+  },
+  {
+    files: ['**/*.js', '**/*.jsx', '**/*.cjs', '**/*.mjs'],
+    extends: [ts.configs.disableTypeChecked],
+  },
+  {
+    plugins: {
+      prettier,
+    },
     rules: {
       'prettier/prettier': [
         'warn',
@@ -88,7 +108,8 @@ export default [
       'object-shorthand': 'warn',
       'prefer-const': 'warn',
       'prefer-template': 'warn',
+      'require-await': 'warn',
       '@typescript-eslint/no-explicit-any': 'warn',
     },
   },
-]
+)
