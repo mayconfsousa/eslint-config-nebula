@@ -12,7 +12,6 @@ export default ts.config(
   ...ts.configs.stylisticTypeChecked,
   {
     rules: {
-      '@typescript-eslint/consistent-type-imports': 'warn',
       '@typescript-eslint/no-floating-promises': 'off',
       '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
       '@typescript-eslint/prefer-nullish-coalescing': ['warn', { ignorePrimitives: true }],
