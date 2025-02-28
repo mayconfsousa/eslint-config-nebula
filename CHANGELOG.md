@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.17](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.16...v1.0.17) (2025-02-28)
+
+
+### Reverts
+
+* add @typescript-eslint/consistent-type-imports rule ([07976b5](https://github.com/mayconfsousa/eslint-config-nebula/commit/07976b529b4b890dfde21411f184b2aae1548086))
+
 ## [1.0.16](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.15...v1.0.16) (2025-02-28)
 
 
