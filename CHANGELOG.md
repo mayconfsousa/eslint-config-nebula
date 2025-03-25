@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.1...v1.1.2) (2025-03-25)
+
+
+### Bug Fixes
+
+* package exports ([39cd5d0](https://github.com/mayconfsousa/eslint-config-nebula/commit/39cd5d0b6af0d8b5adfb0760ab7f170855a84ee7))
+
 ## [1.1.1](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.0...v1.1.1) (2025-03-25)
 
 
