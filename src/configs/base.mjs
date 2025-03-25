@@ -5,22 +5,31 @@ import unusedImports from 'eslint-plugin-unused-imports'
 import ts from 'typescript-eslint'
 
 export default ts.config(
-  { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
-  { ignores: ['node_modules/', 'dist/', 'build/'] },
+  { files: ['**/*.{js,cjs,mjs,jsx,ts,tsx}'] },
+  { ignores: ['node_modules/**', 'dist/**', 'build/**'] },
   js.configs.recommended,
-  ...ts.configs.recommendedTypeChecked,
-  ...ts.configs.stylisticTypeChecked,
+  ...ts.configs.strictTypeChecked,
   {
-    rules: {
-      '@typescript-eslint/no-floating-promises': 'off',
-      '@typescript-eslint/no-misused-promises': ['warn', { checksVoidReturn: false }],
-      '@typescript-eslint/prefer-nullish-coalescing': ['warn', { ignorePrimitives: true }],
-    },
     languageOptions: {
       parserOptions: {
         projectService: true,
         tsconfigRootDir: import.meta.dirname,
       },
+    },
+    rules: {
+      '@typescript-eslint/consistent-type-assertions': [
+        'error',
+        { assertionStyle: 'as', arrayLiteralTypeAssertions: 'never', objectLiteralTypeAssertions: 'never' },
+      ],
+      '@typescript-eslint/consistent-type-imports': ['warn', { prefer: 'type-imports' }],
+      '@typescript-eslint/no-explicit-any': 'error',
+      '@typescript-eslint/no-floating-promises': 'off',
+      '@typescript-eslint/no-misused-promises': ['error', { checksVoidReturn: false }],
+      '@typescript-eslint/prefer-nullish-coalescing': ['error', { ignorePrimitives: true }],
+      'object-shorthand': 'error',
+      'prefer-const': 'error',
+      'prefer-template': 'error',
+      'require-await': 'error',
     },
   },
   {
@@ -33,7 +42,7 @@ export default ts.config(
     },
     rules: {
       'prettier/prettier': [
-        'warn',
+        'error',
         {
           printWidth: 120,
           tabWidth: 2,
@@ -50,9 +59,9 @@ export default ts.config(
     },
     rules: {
       '@typescript-eslint/no-unused-vars': 'off',
-      'unused-imports/no-unused-imports': 'warn',
+      'unused-imports/no-unused-imports': 'error',
       'unused-imports/no-unused-vars': [
-        'warn',
+        'error',
         {
           vars: 'all',
           varsIgnorePattern: '^_',
@@ -67,9 +76,9 @@ export default ts.config(
       perfectionist,
     },
     rules: {
-      'perfectionist/sort-exports': ['warn', { type: 'natural', order: 'asc' }],
+      'perfectionist/sort-exports': ['error', { type: 'natural', order: 'asc' }],
       'perfectionist/sort-imports': [
-        'warn',
+        'error',
         {
           type: 'natural',
           order: 'asc',
@@ -88,28 +97,19 @@ export default ts.config(
             'unknown',
           ],
           newlinesBetween: 'always',
-          internalPattern: ['@/**', '~/**'],
+          internalPattern: ['^@/.*', '^~/.*'],
           customGroups: {
             value: {
-              react: ['react', 'react-dom', 'react-dom/*'],
+              react: ['^react$', '^react-dom.*'],
             },
             type: {
-              react: ['react', 'react-dom', 'react-dom/*'],
+              react: ['^react$', '^react-dom.*'],
             },
           },
         },
       ],
-      'perfectionist/sort-named-exports': ['warn', { type: 'natural', order: 'asc', groupKind: 'values-first' }],
-      'perfectionist/sort-named-imports': ['warn', { type: 'natural', order: 'asc', groupKind: 'values-first' }],
-    },
-  },
-  {
-    rules: {
-      'object-shorthand': 'warn',
-      'prefer-const': 'warn',
-      'prefer-template': 'warn',
-      'require-await': 'warn',
-      '@typescript-eslint/no-explicit-any': 'warn',
+      'perfectionist/sort-named-exports': ['error', { type: 'natural', order: 'asc', groupKind: 'values-first' }],
+      'perfectionist/sort-named-imports': ['error', { type: 'natural', order: 'asc', groupKind: 'values-first' }],
     },
   },
 )

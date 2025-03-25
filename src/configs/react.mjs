@@ -22,15 +22,15 @@ export default [
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': [
-        'warn',
+        'error',
         {
           allowConstantExport: true,
           allowExportNames: ['metadata'],
         },
       ],
-      'react/jsx-boolean-value': 'warn',
-      'react/jsx-curly-brace-presence': ['warn', { props: 'never', children: 'never' }],
-      'react/self-closing-comp': 'warn',
+      'react/jsx-boolean-value': 'error',
+      'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+      'react/self-closing-comp': 'error',
     },
   },
   {

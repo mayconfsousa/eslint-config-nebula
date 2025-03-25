@@ -1,8 +1,8 @@
 import ts from 'typescript-eslint'
 
-import base from './src/base.mjs'
+import configs from './src/index.mjs'
 
-export default ts.config(...base, {
-  files: ['**/*.d.ts'],
+export default ts.config(configs.base, {
+  files: ['**/*.{ts,tsx}'],
   extends: [ts.configs.disableTypeChecked],
 })
