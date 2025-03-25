@@ -4,7 +4,7 @@
   "description": "Elevate JS, TS, and React with best practices for stellar code quality and consistency",
   "type": "module",
   "exports": {
-    "./index": {
+    ".": {
       "types": "./src/index.d.ts",
       "default": "./src/index.mjs"
     }
