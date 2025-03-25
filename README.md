@@ -29,10 +29,10 @@ bun add -D eslint eslint-config-nebula
 ```js
 // eslint.config.mjs
 
-import node from 'eslint-config-nebula/node'
+import nebula from 'eslint-config-nebula'
 
 export default [
-  ...node,
+  ...nebula.node,
   // Override any settings from the "eslint-config-nebula" config here
 ]
 
@@ -42,10 +42,10 @@ export default [
 ```js
 // eslint.config.mjs
 
-import react from 'eslint-config-nebula/react'
+import nebula from 'eslint-config-nebula'
 
 export default [
-  ...react,
+  ...nebula.react,
   // Override any settings from the "eslint-config-nebula" config here
 ]
 ```
@@ -55,10 +55,10 @@ export default [
 ```js
 // eslint.config.mjs
 
-import reactTailwind from 'eslint-config-nebula/react-tailwind'
+import nebula from 'eslint-config-nebula'
 
 export default [
-  ...reactTailwind,
+  ...nebula.reactTailwind,
   // Override any settings from the "eslint-config-nebula" config here
 ]
 ```

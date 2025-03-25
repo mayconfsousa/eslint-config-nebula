@@ -4,17 +4,9 @@
   "description": "Elevate JS, TS, and React with best practices for stellar code quality and consistency",
   "type": "module",
   "exports": {
-    "./node": {
-      "types": "./src/node.d.ts",
-      "default": "./src/node.mjs"
-    },
-    "./react": {
-      "types": "./src/react.d.ts",
-      "default": "./src/react.mjs"
-    },
-    "./react-tailwind": {
-      "types": "./src/react-tailwind.d.ts",
-      "default": "./src/react-tailwind.mjs"
+    "./index": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
     }
   },
   "repository": {
