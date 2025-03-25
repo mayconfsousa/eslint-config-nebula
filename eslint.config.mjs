@@ -1,8 +1,8 @@
 import ts from 'typescript-eslint'
 
-import configs from './src/index.mjs'
+import nebula from './src/index.mjs'
 
-export default ts.config(configs.base, {
+export default ts.config(nebula.base, {
   files: ['**/*.{ts,tsx}'],
   extends: [ts.configs.disableTypeChecked],
 })
