@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.17...v1.1.0) (2025-03-25)
+
+
+### Features
+
+* add oxlint analyses ([caa48f9](https://github.com/mayconfsousa/eslint-config-nebula/commit/caa48f915447b4f9c61ab99fcefa57a4573ea05a))
+* refactor exported object + use strict type checked rules ([d5cc166](https://github.com/mayconfsousa/eslint-config-nebula/commit/d5cc16646a87be0cf3f5f0ca76608aacaa003dbf))
+
 ## [1.0.17](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.0.16...v1.0.17) (2025-02-28)
 
 
