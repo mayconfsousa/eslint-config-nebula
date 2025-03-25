@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.2...v1.1.3) (2025-03-25)
+
+
+### Features
+
+* disable a few rules ([490e7ed](https://github.com/mayconfsousa/eslint-config-nebula/commit/490e7edaf70c6bca48e9e905453ee875118b6d56))
+
 ## [1.1.2](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.1...v1.1.2) (2025-03-25)
 
 
