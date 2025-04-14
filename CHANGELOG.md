@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.3...v1.1.4) (2025-04-14)
+
+
+### Bug Fixes
+
+* ts types ([eb4a9da](https://github.com/mayconfsousa/eslint-config-nebula/commit/eb4a9daff1e19ca7ceacd5492952283b995d24b6))
+
 ## [1.1.3](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.2...v1.1.3) (2025-03-25)
 
 
