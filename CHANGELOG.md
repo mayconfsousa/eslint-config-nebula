@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.4...v1.1.5) (2025-04-18)
+
+
+### Bug Fixes
+
+* eslint-plugin-tailwindcss peer deps ([97f35bd](https://github.com/mayconfsousa/eslint-config-nebula/commit/97f35bdfc693b3e6adb835ac223ac1e7be7a09fe))
+
 ## [1.1.4](https://github.com/mayconfsousa/eslint-config-nebula/compare/v1.1.3...v1.1.4) (2025-04-14)
 
 
